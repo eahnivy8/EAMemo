@@ -18,6 +18,7 @@
 		1E4640F523C8450D004D35C8 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4640F423C8450D004D35C8 /* MemoListTableViewController.swift */; };
 		1E4640F723C856FA004D35C8 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4640F623C856FA004D35C8 /* ComposeViewController.swift */; };
 		1E4640F923C85A70004D35C8 /* UIViewController + Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4640F823C85A70004D35C8 /* UIViewController + Alert.swift */; };
+		1E8C31E123CC426500CAF772 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8C31E023CC426500CAF772 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1E4640F423C8450D004D35C8 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		1E4640F623C856FA004D35C8 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		1E4640F823C85A70004D35C8 /* UIViewController + Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Alert.swift"; sourceTree = "<group>"; };
+		1E8C31E023CC426500CAF772 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		1E4640D723C8378F004D35C8 /* EAMemo */ = {
 			isa = PBXGroup;
 			children = (
+				1E8C31DF23CC424000CAF772 /* Data */,
 				1E4640F123C840D7004D35C8 /* Model */,
 				1E4640D823C8378F004D35C8 /* AppDelegate.swift */,
 				1E4640DA23C8378F004D35C8 /* SceneDelegate.swift */,
@@ -88,6 +91,14 @@
 				1E4640F223C84124004D35C8 /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1E8C31DF23CC424000CAF772 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1E8C31E023CC426500CAF772 /* DataManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				1E4640E323C8378F004D35C8 /* EAMemo.xcdatamodeld in Sources */,
 				1E4640F923C85A70004D35C8 /* UIViewController + Alert.swift in Sources */,
 				1E4640F323C84124004D35C8 /* Model.swift in Sources */,
+				1E8C31E123CC426500CAF772 /* DataManager.swift in Sources */,
 				1E026D5123C9822C001E9D0F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
