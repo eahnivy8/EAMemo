@@ -12,7 +12,7 @@ import CoreData
 class DataManager {
     static let shared = DataManager()
     private init() {
-        //singleton 싱글톤
+
     }
     var mainContext: NSManagedObjectContext {
         return persistentContainer.viewContext

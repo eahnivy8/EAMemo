@@ -116,7 +116,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nMl-DT-HCX">
                                 <rect key="frame" x="0.0" y="729" width="375" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="GMO-dc-4yK"/>
+                                    <barButtonItem systemItem="compose" id="GMO-dc-4yK">
+                                        <connections>
+                                            <segue destination="Vb6-pD-3m9" kind="presentation" id="sYG-Vg-f7j"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -133,6 +137,9 @@
                         <viewLayoutGuide key="safeArea" id="Hb0-qJ-D71"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="JFE-J7-AQJ"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="nfX-hD-R61" id="K2G-Uq-mQg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fYG-U6-hja" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -219,4 +226,7 @@
             <point key="canvasLocation" x="970" y="-299"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ic6-zQ-P4o"/>
+    </inferredMetricsTieBreakers>
 </document>
